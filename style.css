@@ -1,0 +1,390 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    scroll-behavior: smooth !important;
+}
+.to-top
+{
+    position: fixed;
+    right: 30px;
+    bottom: 16px;
+    width:50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #147bcd;
+    color: white;
+    text-decoration: none;
+    opacity: 0;
+    pointer-events: none;
+    transition: all .5s;
+}
+.to-top.active
+{
+    bottom: 30px;
+    opacity: 1;
+    pointer-events: auto;
+}
+/* PHẦN HEADER */
+.header
+{
+    width: 100%;
+    height:70px;
+    background-color: #444;
+    line-height: 70px;
+}
+.header_content
+{
+    margin: 0 auto;
+    width: 80%;
+}
+.header_content input{
+    width: 325px;
+    height: 35px;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    outline: none;
+    border: 1px solid #147bcd;
+}
+.header_content button{
+    width: 101px;
+    height: 41px;
+    border-radius: 5px;
+    background-color: #147bcd;
+    color: white;   
+    cursor: pointer;
+}
+.header_content span i{
+    font-size: 17px;
+    margin-right: 20px;
+    color: white;
+}
+
+
+
+/* PHẦN MENU */
+#menu
+{
+    width: 100%;
+    height: 40px;
+    background-color: #333333;
+    line-height: 40px;
+}
+.menu-scroll {
+    position: fixed;
+    top: 0;
+}
+.menu-icon
+{
+    text-decoration: none;
+    display: inline;
+}
+.menu-icon a:hover{
+    text-decoration: none;
+    color: #cccccc;
+}
+.menu-icon i:hover
+{
+    color: white;
+}
+.menu-content
+{
+    margin: 0 auto;
+    text-align: center;
+}
+.menu-content a{
+    text-decoration: none;
+    color:#cccccc;
+}
+.menu-content ul
+{
+    width: 90%;
+    margin-top: 0px;
+    text-align: center;
+    display: inline;
+}
+.menu-content ul li{
+    list-style-type: none;
+    display: inline;
+    margin: 0 auto;
+    margin-left: 60px;
+}
+.menu-content ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #cccccc;
+}
+.menu-content ul li a:hover
+{
+    color: white;
+}
+
+.menu-content i
+{
+    font-size: 24px;
+    color: #cccccc;
+    display: inline;
+    text-decoration: none;
+}
+
+
+/* PHẦN BÊN DƯỚI MENU */
+.noti
+{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #f5f5f7;
+    margin: 0 auto;
+}
+.noti a{
+    font-size: 16px;
+}
+
+/* PHẦN CONTENT */
+.iphone12
+{
+    color: #444;
+    text-align: center;
+    background-color: #fbfbfd;
+}
+.iphone12pro
+{
+    background-color: black;
+    text-align: center;
+}
+.ipadpro
+{
+    background-color: black;
+    text-align: center;
+    margin-top: 15px;
+}
+.iphone12 img
+{
+    width: 80%;
+}
+.two-collums
+{
+    width: 100%;
+}
+.imac
+{
+    text-align: center;
+    width: 48%;
+    height: 600px;
+    background-color: #f5f5f7;
+    margin: 15px 15px 0px 15px;
+    display: inline-block;
+    scroll-margin-top: 65px;
+}
+.imac img{
+    width: 100%;
+    margin-top: 60px;
+}
+.imac a{
+    text-decoration: none;
+    font-size: 18px;
+    color:#8a8a8f;
+    line-height: 50px;
+
+}
+.watch
+{
+    background-color: black;
+    height: 600px;
+    width: 48%;
+    float: right;
+    margin: 15px 15px 0px 0px;
+    text-align: center;
+}
+.watch i{
+    margin-right: 10px;
+}
+.watch img{
+    width: 100%;
+    margin-top: 60px;
+}
+a
+{
+    text-decoration: none;
+    font-size: 20px;
+    color:blue;
+}
+#content a i{
+    margin-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+#content a:hover{
+    text-decoration: underline;
+}
+
+.airpods
+{
+    text-align: center;
+    width: 48%;
+    height: 600px;
+    background-color: #b4deec;
+    margin: 15px 15px 0px 15px;
+    display: inline-block;
+}
+.airpods img{
+    width: 100%;
+    margin-top: 50px;
+}
+.fitness
+{
+    background-color: #fbfbfd;
+    height: 600px;
+    width: 48%;
+    float: right;
+    margin: 15px 15px 0px 0px;
+    text-align: center;
+}
+.fitness a {
+    font-size: 16px;
+}
+.fitness div i{
+    font-size: 38px;
+    margin-right: 5px;
+}
+.fitness img{
+    width: 100%;
+}
+
+.card
+{
+    text-align: center;
+    width: 48%;
+    height: 600px;
+    background-color: #fbfbfd;
+    margin: 15px 15px 0px 15px;
+    display: inline-block;
+}
+.card img
+{
+    width: 100%;
+    margin-top: 30px;
+}
+.tv
+{
+    background-image: url('images/corman.jpg');
+    background-size: cover;
+    height: 600px;
+    width: 48%;
+    float: right;
+    margin: 15px 15px 0px 0px;
+    text-align: center;
+    position:relative;
+}
+.text
+{
+   bottom: 20px;
+   position:absolute;
+}
+.text a{
+    color: white;
+    margin-top: 90px;
+}
+
+
+
+/* PHẦN FOOTER */
+footer
+{
+    background-color: #f5f5f7;
+    width: 100%;
+    padding-top: 30px;
+}
+.price
+{
+    width: 70%;
+    margin: 0 auto;
+    font-size: 12px;
+    color: #a5a5a9;
+    letter-spacing: 1px;
+
+}
+.country
+{
+    display: flex;
+    width: 70%;
+    color: #a5a5a9;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+.column
+{
+    margin: auto;
+    margin-top: 30px;
+    width: 20%;
+    margin-right: 20px;
+}
+.column b
+{
+    color: #4e4e50;
+    font-size: 13px;
+    line-height: 50px;
+}
+.column a{
+    font-size:12px;
+    display: block;
+    color: #6d6d6f;
+    line-height: 30px;
+}
+.column a:hover
+{
+    text-decoration: underline;
+}
+.end
+{
+    width: 70%;
+    margin: 0 auto;
+    font-size:12px;
+    color: #6d6d6f;
+}
+footer p>a{
+    font-size: 12px;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+.end-menu
+{
+    display: inline;
+}
+.end-menu p
+{
+    display: inline-block;
+}
+.end-menu ul {
+    display: inline;
+}
+.end-menu ul li {
+    display: inline-block;
+    border-right: 1px solid #6d6d6f;
+    padding-right:10px;
+    padding-left: 10px;
+}
+.end-menu ul li:last-child
+{
+    border: none;
+}
+.end a {
+    font-size: 12px;
+    color: #6d6d6f;
+}
+.end p > a {
+    color: blue;
+}
+.right{
+    display: inline;
+    float: right;
+    margin-top: 12px;
+}
